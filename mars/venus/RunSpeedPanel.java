@@ -49,7 +49,7 @@ public class RunSpeedPanel extends JPanel {
      * will not attempt to update register and memory contents as each instruction
      * is executed.  This is the only possible value for command-line use of Mars.
      */
-    public final static double UNLIMITED_SPEED = 40;
+    public final static double UNLIMITED_SPEED = 1000;
 
     private final static int SPEED_INDEX_MIN = 0;
     private final static int SPEED_INDEX_MAX = 40;
